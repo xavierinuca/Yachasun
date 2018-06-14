@@ -18,6 +18,9 @@ import { SearchComponent } from './components/search/search.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
 
+import { ChartsModule} from "ng2-charts/ng2-charts";
+import { BarraComponent } from './components/barra/barra.component';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,12 +31,14 @@ import { NotificacionesComponent } from './components/notificaciones/notificacio
     ItemComponent,
     SearchComponent,
     NotFoundComponent,
-    NotificacionesComponent
+    NotificacionesComponent,
+    BarraComponent
   ],
   imports: [
     BrowserModule,
     app_routing,
-    HttpModule
+    HttpModule,
+    ChartsModule
   ],
   providers: [
     InformacionService,

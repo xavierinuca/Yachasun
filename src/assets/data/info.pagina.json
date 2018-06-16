@@ -1,12 +1,11 @@
-
 {
-  "titulo" : "SUPER PAGINA",
-  "email" : "bryanxavier95@gmail.com",
-  "nombre": "Xavier Inuca",
-  "facebook" : "https://www.facebook.com/bryan.xavier3",
-  "twitter" : "https://twitter.com/InucaXavi",
-  "instagram" : "https://www.instagram.com/bryan_xavi25/",
-  "telefono" : "0996322192",
-  "Equipo de trabajo" :[]
+    "titulo": "YACHACHIK",
+    "email": "bryanxavier95@gmail.com",
+    "nombre": "Xavier Inuca",
+    "facebook": "https://www.facebook.com/bryan.xavier3",
+    "twitter": "https://twitter.com/InucaXavi",
+    "instagram": "https://www.instagram.com/bryan_xavi25/",
+    "telefono": "0996322192",
+    "Equipo de trabajo": []
 
 }

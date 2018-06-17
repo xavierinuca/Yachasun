@@ -29,9 +29,6 @@ export class ProductosService {
       }else{
         this.filtrar_productos(termino);
       }
-
-
-
   }
   private filtrar_productos(termino:string){
     this.productos_filtrado= [];

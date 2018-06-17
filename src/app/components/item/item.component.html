@@ -1,7 +1,4 @@
 <div *ngIf="producto">
-
-
-
     <!--item-inside-1-->
     <!--src="assets/productos/{{ cod }}/main.jpg"-->
 
@@ -18,51 +15,46 @@
             </div>
             <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details">
                 <p class="rk-portfolio-inner-client ">
-                    <span class="ae-lambda">Alumno: </span>
-                    <span class="ae-u-bolder">Grado q cursa:</span>
+                    <span class="ae-lambda">Client: </span>
+                    <span class="ae-u-bolder">Agency Design Studio</span>
                 </p>
                 <p class="au-underline rk-portfolio-inner-website ">
-                    <a href="#0" class="ae-kappa">Edad
-          </a>
+                    <a href="#0" class="ae-kappa">www.agencydesign.com
+            </a>
                 </p>
-                <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">Fecha Nac: 12 August, 2015</p>
+                <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">12 August, 2015</p>
             </div>
         </div>
     </div>
     <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
-        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
-            <div class="ae-grid__item item-lg-5 au-lg-ptp-1">
+        <div class="ae-grid ae-grid--collapse">
+            <div class="ae-grid__item item-lg-5 ">
                 <h4 class="ae-u-bolder">{{ producto.subtitulo2 }}</h4>
                 <p class="ae-eta">
                     {{ producto.desc1 }}
+
+                </p>
+                <p class="a">
+                    {{ producto.desc2 }}
                 </p>
             </div>
 
-        </div>
-        <div class="ae-grid ae-grid--collapse">
-            <div class="ae-grid__item item-lg-8">
 
+
+            <div class="ae-grid__item item-lg-6 item-lg--offset-1">
                 <app-barra> </app-barra>
 
+            </div>
+            <div class="ae-grid ae-grid--collapse">
 
 
-                <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
-                    <p>
-                        {{ producto.desc2 }}
-                    </p>
-                    <p class="ae-u-bolder">
-                        {{ producto.subtitulo2 }}
-                    </p>
-                </div>
+            </div>
+            <div class="ae-container-fluid au-pt-4 au-pb-4">
+                <div class="group-buttons"><a href="#0" class="au-mt-2 arrow-button arrow-button--right">Next Project<span class="arrow-cont">
+            <svg>
+              <use xlink:href="assets/img/symbols.svg#arrow"></use>
+            </svg></span></a></div>
             </div>
 
-        </div>
-        <div class="ae-container-fluid au-pt-4 au-pb-4">
-            <div class="group-buttons"><a href="#0" class="au-mt-2 arrow-button arrow-button--right">Next Project<span class="arrow-cont">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#arrow"></use>
-          </svg></span></a></div>
-        </div>
 
-
-    </div>
+        </div>

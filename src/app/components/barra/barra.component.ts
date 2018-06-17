@@ -12,13 +12,20 @@ export class BarraComponent  {
   };
 
 
-  public barChartLabels:string[] = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes'];
+  public barChartLabels:string[] = ['Rojo', 'Amarillo', 'Azul', 'Blanco', 'Verde'];
+  public barChartLabel:string[] = ['Vocal A', 'Vocal E', 'Vocal I', 'Vocal O', 'Vocal U'];
+
   public barChartType:string = 'bar';
   public barChartLegend:boolean = true;
 
   public barChartData:any[] = [
-    {data: [ 59, 80, 81, 56, 55, 40], label: 'errores Colores'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'errores Vocales'}
+    {data: [1,  2 , 3, 2 , 1, 0], label: 'Errores Colores'},
+
+  ];
+
+  public barChartDat:any[] = [
+    {data: [ ], label: ''},
+    {data: [ 3, 1 , 2 , 2 ,1 , 0], label: 'Errores Vocales'}
   ];
  // events
  public chartClicked(e:any):void {
@@ -31,17 +38,16 @@ public chartHovered(e:any):void {
 
 public randomize():void {
   // Only Change 3 values
-  let data = [
-    Math.round(Math.random() * 100),
-    59,
-    80,
-    (Math.random() * 100),
-    56,
-    (Math.random() * 100),
-    40];
-  let clone = JSON.parse(JSON.stringify(this.barChartData));
-  clone[0].data = data;
-  this.barChartData = clone;
+  let data = [];
+
+    
+   // Math.round(Math.random() * 3),
+  //  3,
+   // (Math.random() * 3),
+   // 3,
+    //(Math.random() * 3),
+   // 3];
+ 
   /**
    * (My guess), for Angular to recognize the change in the dataset
    * it has to change the dataset variable directly,

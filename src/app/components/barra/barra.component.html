@@ -1,7 +1,14 @@
 <div>
-    <div style="display: block">
-        <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
-      </canvas>
+    <div style="display: block" align="center">
+        <h2> REPORTE DE COLORES</h2>
+        <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">     
+        </canvas>
+        <br>
+        <br>
+        <h2>REPORTE DE VOCALES</h2>
+
+        <canvas baseChart [datasets]="barChartDat" [labels]="barChartLabel" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+    </canvas>
     </div>
-    <button class="btn btn-primary btn-block" (click)="randomize()">Update</button>
+
 </div>

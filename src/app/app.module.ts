@@ -15,7 +15,6 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { AboutComponent } from './components/about/about.component';
 import { ItemComponent } from './components/item/item.component';
 import { SearchComponent } from './components/search/search.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
 
 import { ChartsModule} from "ng2-charts/ng2-charts";
@@ -30,7 +29,6 @@ import { BarraComponent } from './components/barra/barra.component';
     AboutComponent,
     ItemComponent,
     SearchComponent,
-    NotFoundComponent,
     NotificacionesComponent,
     BarraComponent
   ],
